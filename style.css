@@ -1,0 +1,36 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+  /* ==================== Colors ==================== */
+  --clr-orange: #e38826;
+  --clr-cyan: #006970;
+  --clr-green: #004241;
+
+  --clr-paragraphs: #ffffffbf;
+  --clr-background-headings-buttons: #f2f2f2;
+
+  /* ==================== Fonts ==================== */
+  --ff-lexend-deca: "Lexend Deca", sans-serif;
+  --ff-big-shoulders-display: "Big Shoulders Display", cursive;
+
+  --fs-p: 0.938rem;
+}
+
+/* ==================== General styling ==================== */
+body {
+  background-color: var(--clr-background-headings-buttons);
+}
+/* ==================== Header ==================== */
+
+/* ==================== Main ==================== */
+
+/* ==================== Button ==================== */
+
+/* ==================== Image ==================== */
+
+/* ==================== Link ==================== */
+
+/* ==================== Text ==================== */
+
+/* ==================== Responsive ==================== */
