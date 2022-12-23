@@ -28,7 +28,8 @@
   /* ==================== Button ==================== */
   button {
     margin: 0;
-    margin-top: 52px;
+    margin-top: 47px;
+    width: 171px;
   }
 
   .button-green {
