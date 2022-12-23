@@ -22,5 +22,5 @@ Projekt som vytvoril za dve hodiny. Použil som HTML a CSS. Ak mám spomenúť n
 
 ## Odkazy
 
-- Konkrétny projekt na Frontend Mentor: https://www.frontendmentor.io/solutions/3column-preview-card-component-n_8y2p3C45
-- Moje ostatné projekty na Frontend Mentor: https://www.frontendmentor.io/profile/WeekendsProgrammer
+- [Konkrétny projekt na stranke Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-n_8y2p3C45)
+- [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/WeekendsProgrammer)
