@@ -1,98 +1,101 @@
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  align-items: center;
   background-color: hsl(0, 0%, 95%);
+  box-sizing: border-box;
   color: hsl(0, 0%, 95%);
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
+/* ==================== Layout ==================== */
 main {
-  max-width: 921px;
-  height: 500px;
   display: flex;
+  height: 500px;
+  max-width: 921px;
 }
 
+.box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 307px;
+  padding: 47px;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.kabriolet {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+/* ==================== General styling ==================== */
 h2 {
   font-family: "Big Shoulders Display", cursive;
-  font-weight: 700;
-  text-transform: uppercase;
   font-size: 40px;
+  font-weight: 700;
   margin: 15px 0;
+  text-transform: uppercase;
 }
 
 p {
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  font-weight: 400;
   line-height: 25px;
   margin: 0;
 }
 
-.box {
-  padding: 47px;
-  max-width: 307px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-}
-
-.sedans {
-  background-color: hsl(31, 77%, 52%);
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-}
-
-.suvs {
-  background-color: hsl(184, 100%, 22%);
-}
-
-.luxury {
-  background-color: hsl(179, 100%, 13%);
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-}
-
 a {
-  text-decoration: none;
   color: none;
+  text-decoration: none;
 }
 
+/* ==================== Button ==================== */
 button {
   background-color: hsl(0, 0%, 95%);
   border-radius: 50px;
   border-style: none;
-  width: 156px;
-  height: 48px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
   color: hsl(31, 77%, 52%);
   cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  font-weight: 400;
+  height: 48px;
   line-height: 25px;
   margin: 60px 0;
+  width: 156px;
 }
 
-button:hover,
-button:focus {
+button:focus,
+button:hover {
   background-color: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
   border: solid hsl(0, 0%, 95%) 2px;
+  color: hsl(0, 0%, 95%);
 }
 
 .button-blue {
   color: hsl(184, 100%, 22%);
 }
 
-.button-blue:hover,
-.button-blue:focus {
+.button-blue:focus,
+.button-blue:hover {
   background-color: hsl(184, 100%, 22%);
-  color: hsl(0, 0%, 95%);
   border: solid hsl(0, 0%, 95%) 2px;
+  color: hsl(0, 0%, 95%);
 }
 
 .button-green {
@@ -100,9 +103,9 @@ button:focus {
   margin: 110px 0;
 }
 
-.button-green:hover,
-.button-green:focus {
+.button-green:focus,
+.button-green:hover {
   background-color: hsl(179, 100%, 13%);
-  color: hsl(0, 0%, 95%);
   border: solid hsl(0, 0%, 95%) 2px;
+  color: hsl(0, 0%, 95%);
 }

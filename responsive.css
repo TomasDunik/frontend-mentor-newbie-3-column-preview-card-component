@@ -3,27 +3,29 @@
     height: auto;
   }
 
+  /* ==================== Layout ==================== */
   main {
     flex-direction: column;
+    height: 1406px;
     margin: 20px 0;
     max-width: 327px;
-    height: 1406px;
   }
 
-  .sedans {
+  .sedan {
     background-color: hsl(31, 77%, 52%);
     border-bottom-left-radius: 0;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
   }
 
-  .luxury {
+  .kabriolet {
     background-color: hsl(179, 100%, 13%);
-    border-top-right-radius: 0;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+    border-top-right-radius: 0;
   }
 
+  /* ==================== Button ==================== */
   button {
     margin: 0;
     margin-top: 47px;
